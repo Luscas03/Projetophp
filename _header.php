@@ -11,7 +11,7 @@ if ($pageTitle == '') {
 if($pageCSS == '') {
     $_CSS = '';
 } else {
-    $_CSS = '<link rel="stylesheet" href="/css/' . $pageCSS . '">' . "\n";
+    $_CSS = '<link rel="stylesheet" href="css/' . $pageCSS . '">' . "\n";
 }
 
 // Processa JavaScript desta página
@@ -32,6 +32,7 @@ if($pageJS == '') {
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <?php echo $_CSS ?>
     <link href="https://fonts.googleapis.com/css2?family=Grandstander&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="img/logo.jpg" type="image/x-icon">
     <title><?php echo $_TITLE ?></title>
 </head>
 

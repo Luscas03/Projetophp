@@ -1,0 +1,13 @@
+
+
+
+.center {
+    text-align: center;
+
+}
+.autor-date {
+    display: block;
+    background-color: rgba(0,0,0,.1);
+    padding: .2rem .5rem .2rem .2rem;
+    text-align: right;
+}

@@ -1,43 +1,143 @@
 <?php
 
+
+
 // Configuração da página
+
 require('./_config.php');
 
+
+
+/** Códigos PHP da página */
+
+
+
+// Define variáveis
+
+$output = '';
+
+
+
+// Obtém artigos do DB
+
+$sql = "SELECT art_id, image, title, preview FROM articles WHERE status = 'ativo' ORDER BY date DESC";
+
+$res = $conn->query($sql);
+
+
+
+//  Conta quantos registros retornaram
+
+$total = $res->num_rows;
+
+
+
+// Se não retornou registro, exibe mensagem abaixo
+
+if ($total == 0) {
+
+    $output = '<h4>Nenhum artigo encontrado.</h4>';
+
+
+
+    // Se retornou registro(s)
+
+} else {
+
+
+
+    // Loop entre os artigos
+
+    while ($art = $res->fetch_assoc()) :
+
+
+
+        // Imprime cada artigo em '$output'
+
+        $output .= <<<HTML
+
+
+
+<div class="article">
+
+<a href="/view.php?id={$art['art_id']}"><img src="{$art['image']}" alt="{$art['title']}"></a>
+
+<div>
+
+    <a href="/view.php?id={$art['art_id']}"><h3>{$art['title']}</h3></a>
+
+    {$art['preview']}
+
+</div>
+
+</div>
+
+
+
+HTML;
+
+
+
+    endwhile;
+
+}
+
+
+
 // Título desta página
+
 $pageTitle = '';
 
+
+
 // CSS desta página
+
 $pageCSS = 'index.css';
 
+
+
 // JavaScript desta página
+
 $pageJS = '';
 
+
+
 require('./_header.php');
+
 ?>
+
+
 
 <article>
 
-    <h2>Página Inicial</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus numquam debitis quis doloremque
-        illo ab dolorem sed, ducimus reprehenderit? Culpa nulla tempora numquam quo quae explicabo harum
-        possimus cum porro?</p>
-    <picture>
-        <img class="flush" src="https://picsum.photos/400/300" alt="Imagem aleatória">
-    </picture>
-    <p><a href="/">Link de teste</a></p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium ut ex voluptatibus, quibusdam,
-        consectetur neque enim iure aliquid cum dolore alias error facere deserunt quos itaque dolorem
-        inventore officiis fugit.</p>
+
+
+    <h2>Artigos Recentes</h2>
+
+    <div class="articles"><?php echo $output ?></div>
+
+
 
 </article>
 
+
+
 <aside>
 
+
+
     <h3>Sidebar</h3>
+
     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident necessitatibus atque.</p>
+
+
 
 </aside>
 
+
+
 <?php
+
 require('./_footer.php');
+
 ?>

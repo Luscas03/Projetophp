@@ -7,7 +7,7 @@ require('./_config.php');
 $pageTitle = 'Sobre';
 
 // CSS desta página
-$pageCSS = 'sobre.css';
+$pageCSS = '';
 
 // JavaScript desta página
 $pageJS = '';

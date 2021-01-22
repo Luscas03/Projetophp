@@ -1,1 +1,28 @@
 /* CSS de index.php */
+
+.article {
+display: flex;
+margin-bottom: 1.5rem;
+align-items: center;
+}
+.article:nth-child(odd) {
+    background: rgba(0, 0, 0, 0.1);
+}
+.article:nth-child(even) {
+    background: rgba(0, 0, 0, 0.2);
+}
+.article > div {
+padding: .5rem;
+}
+.article:hover {
+    background-color: rgba(0,0,0, .15);
+}
+.article img {
+    width: 80px;
+    height: 80px;
+    display: block;
+    margin-right: .5rem;
+}
+.article h3 {
+    margin: 0 0 .5rem 0;
+}
