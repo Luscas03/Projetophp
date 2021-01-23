@@ -45,13 +45,13 @@ if($pageJS == '') {
     <div class="wrap">
 
         <header>
-            <a href="/" title="Catodo Comum - Página inicial"><img src="<?php echo $siteLogo ?>"
+            <a href="index.php" title="Catodo Comum - Página inicial"><img src="<?php echo $siteLogo ?>"
                     alt="Catodo Comum - Intranet"></a>
             <h1><?php echo $siteName ?><small><?php echo $siteSlogan ?></small></h1>
         </header>
 
         <nav>
-            <a href="/" title="Página inicial"><span>Início</span></a>
+            <a href="index.php" title="Página inicial"><span>Início</span></a>
             <a href="noticias.php" title="Notícias atualizadas"><span>Notícias</span></a>
             <a href="contatos.php" title="Faça contato conosco"><span>Contatos</span></a>
             <a href="sobre.php" title="Sobre o Catodo Comum"><span>Sobre</span></a>

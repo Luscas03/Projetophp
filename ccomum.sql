@@ -27,6 +27,7 @@ CREATE TABLE contacts (
     id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
     date TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     name VARCHAR(127) NOT NULL,
+    email VARCHAR(255) NOT NULL,
     subject VARCHAR(255) NOT NULL,
     message TEXT NOT NULL,
     status ENUM ('Não lida','lida','respondida','apagada') DEFAULT 'Não lida'
