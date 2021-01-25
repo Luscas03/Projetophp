@@ -17,7 +17,8 @@ input, textarea, button {
 }
 
 input, textarea {
-    width: 100%;
+    width: 70%;
+
 }
 
 textarea {
@@ -26,29 +27,29 @@ textarea {
 }
 
 button {
-    background: linear-gradient(rgb(146, 182, 212), rgb(27, 76, 116));
+    background: linear-gradient(rgb(0, 0, 0), rgb(99, 99, 99));
     color: #fff;
     cursor: pointer;
 }
 
 button:hover {
-    background: linear-gradient(rgb(248, 147, 110), rgb(141, 40, 4));
+    background: linear-gradient(rgb(0, 0, 0), rgb(95, 94, 94));
 }
 
 button:disabled {
-    background: linear-gradient(rgb(88, 88, 88), grey);
-    color: rgb(180, 180, 180);
+    background: linear-gradient(rgb(0, 0, 0), rgb(99, 99, 99));
+    color: rgb(0, 0, 0);
     cursor: not-allowed;
 }
 
 input:invalid, textarea:invalid {
-    background: rgb(255, 207, 207);
-    border-bottom: 3px solid red;
+    background: rgb(221, 221, 221);
+    
 }
 
 input:valid, textarea:valid {
-    background: rgb(213, 255, 213);
-    border-bottom: 3px solid green;
+    background: rgb(219, 219, 219);
+    border: 1px solid rgb(87, 248, 87);
 }
 
 #contact:invalid button {

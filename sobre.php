@@ -31,12 +31,7 @@ require('./_header.php');
 
 </article>
 
-<aside>
 
-    <h3>Sidebar</h3>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident necessitatibus atque.</p>
-
-</aside>
 
 <?php
 require('./_footer.php');

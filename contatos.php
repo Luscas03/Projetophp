@@ -46,9 +46,9 @@ require('./_header.php');
 
     <?php if (!$feedback) : ?>
 
-        <form method="POST" name="contact" id="contact">
+        <form method="POST" name="contact" id="contact" class="center">
 
-            <p>Preencha os campos abaixo para entrar em contato com a equipe do <span id="siteName"></span>.</p>
+            <p> Entre em contato com nossa equipe preenchendo o formulário abaixo!</p>
 
             <p class="center small red">* Todos os campos são obrigatórios.</p>
 
@@ -83,23 +83,18 @@ require('./_header.php');
 
     <?php else : ?>
 
-        <p><strong>Olá <?php echo $name ?>!</strong></p>
-        <p>Seu contato foi enviado com sucesso.</p>
-        <p><em>Obrigado...</em></p>
+        <p><strong>Olá, <?php echo $name ?>!</strong></p>
+        <p>Mensagem Enviada!</p>
+     
         <p class="center">
-            <a href="/"><i class="fas fa-fw fa-home"></i> Página inicial</a>
+            <a href="index.php"><i class="fas fa-fw fa-home"></i> Página inicial</a>
         </p>
 
     <?php endif ?>
 
 </article>
 
-<aside>
 
-    <h3>Sidebar</h3>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident necessitatibus atque.</p>
-
-</aside>
 
 <?php
 require('./_footer.php');

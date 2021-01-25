@@ -98,7 +98,7 @@ $pageCSS = 'index.css';
 
 // JavaScript desta página
 
-$pageJS = '';
+$pageJS = 'jquery.rss.min.js';
 
 
 
@@ -126,10 +126,11 @@ require('./_header.php');
 
 
 
-    <h3>Sidebar</h3>
+   
 
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident necessitatibus atque.</p>
-
+    <h3>Notícias Atualizadas</h3>
+    <p>Últimas notícias do Brasil e do mundo no Google News sobre '<span id="keyword"></span>'.</p>
+    <div id="side"></div>
 
 
 </aside>

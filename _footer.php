@@ -4,7 +4,7 @@
 
         <div class="info">
 
-                <a href="/" title="Ir para a página inicial."><i class="fas fa-fw fa-home"></i></a>
+                <a href="index.php" title="Ir para a página inicial."><i class="fas fa-fw fa-home"></i></a>
                 <div>
                         &copy; Copyright 2021 Lucas Almeida
                         <small>Todos os direitos reservados</small>
@@ -17,9 +17,9 @@
 
                 <!-- Menu de redes sociais -->
                 <div class="social">
-                        <a href="/" target="_blank" title="Catodo Comum no Facebook."><i class="fab fa-fw fa-facebook-square"></i><span>Facebook</span></a>
-                        <a href="/" target="_blank" title="Catodo Comum no Youtube."><i class="fab fa-fw fa-youtube-square"></i><span>Youtube</span></a>
-                        <a href="/" target="_blank" title="Catodo Comum no Twitter."><i class="fab fa-fw fa-twitter-square"></i><span>Twitter</span></a>
+                        <a href="/" target="_blank" title="Aero no Facebook."><i class="fab fa-fw fa-facebook-square"></i><span>Facebook</span></a>
+                        <a href="/" target="_blank" title="Aero no Youtube."><i class="fab fa-fw fa-youtube-square"></i><span>Youtube</span></a>
+                        <a href="/" target="_blank" title="Aero Comum no Twitter."><i class="fab fa-fw fa-twitter-square"></i><span>Twitter</span></a>
                         <!-- <a href="/" target="_blank" title="Catodo Comum no Instagram."><i
                     class="fab fa-fw fa-instagram-square"></i><span>Instagram</span></a> -->
                 </div>

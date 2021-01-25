@@ -18,7 +18,7 @@ if($pageCSS == '') {
 if($pageJS == '') {
     $_JS = '';
 } else {
-    $_JS = '<script src="/js/' . $pageJS . '"></script>' . "\n";
+    $_JS = '<script src="js/' . $pageJS . '"></script>' . "\n";
 }
 
 ?><!DOCTYPE html>
