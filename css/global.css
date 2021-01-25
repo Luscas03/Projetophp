@@ -48,7 +48,9 @@ body {
     background-attachment: fixed;
     background-size: cover;
     background-position-x: left;
-    background-color: rgba(0, 0, 0, 0.623);
+    /* background-color: rgba(161, 161, 161, 0.295); */
+    background-image: linear-gradient(180deg, rgb(255, 255, 255), rgba(0, 0, 0, 0.61));
+
 }
 
 /* Enquadramento da página */
@@ -70,7 +72,7 @@ body {
 header {
     display: flex;
     align-items: center;
-    color: #ddd;
+    color: rgb(0, 0, 0);
     padding: .8rem .5rem;
 }
 
@@ -220,13 +222,17 @@ article {
     margin-top: .5rem;
     padding: 0 .5rem;
     flex: 4;
+    box-shadow: 0 0 1em rgba(0, 0, 0, 0.356);
+ 
 }
 
 aside {
-    background: rgb(255, 255, 255);
+    background: rgba(124, 124, 124, 0.192);
     overflow: auto;
     margin-top: .5rem;
     padding: 0 .5rem;
+  
+    
 }
 
 /* Conteúdo responsivo */

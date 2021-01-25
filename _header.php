@@ -46,7 +46,7 @@ if($pageJS == '') {
 
         <header>
             <a href="index.php" title="Catodo Comum - Página inicial"><img src="<?php echo $siteLogo ?>"
-                    alt="Catodo Comum - Intranet"></a>
+                    alt="Aero - Intranet"></a>
             <h1><?php echo $siteName ?><small><?php echo $siteSlogan ?></small></h1>
         </header>
 

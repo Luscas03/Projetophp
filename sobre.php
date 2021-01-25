@@ -18,16 +18,10 @@ require('./_header.php');
 <article>
 
     <h2><?php echo $pageTitle ?></h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus numquam debitis quis doloremque
-        illo ab dolorem sed, ducimus reprehenderit? Culpa nulla tempora numquam quo quae explicabo harum
-        possimus cum porro?</p>
-    <picture>
-        <img class="flush" src="https://picsum.photos/400/300" alt="Imagem aleatória">
-    </picture>
-    <p><a href="/">Link de teste</a></p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium ut ex voluptatibus, quibusdam,
-        consectetur neque enim iure aliquid cum dolore alias error facere deserunt quos itaque dolorem
-        inventore officiis fugit.</p>
+    <p>Nós nos importamos com a informação. Com essa ideia, projetamos esse portal para informatizar nossos clientes.</p>
+ 
+ 
+    <p>A sua satisfação é muito importante para nós! Havendo qualquer problema, entre em <b><a href="contatos.php">CONTATO</a></b> conosco!</p>
 
 </article>
 

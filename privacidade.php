@@ -18,16 +18,28 @@ require('./_header.php');
 <article>
 
     <h2><?php echo $pageTitle ?></h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus numquam debitis quis doloremque
-        illo ab dolorem sed, ducimus reprehenderit? Culpa nulla tempora numquam quo quae explicabo harum
-        possimus cum porro?</p>
-    <picture>
-        <img class="flush" src="https://picsum.photos/400/300" alt="Imagem aleatória">
-    </picture>
-    <p><a href="/">Link de teste</a></p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium ut ex voluptatibus, quibusdam,
-        consectetur neque enim iure aliquid cum dolore alias error facere deserunt quos itaque dolorem
-        inventore officiis fugit.</p>
+    <p>A sua privacidade é importante para nós. É política do aero respeitar a sua privacidade em relação a qualquer informação sua que possamos coletar no site aero, e outros sites que possuímos e operamos.</p>
+   <p>Solicitamos informações pessoais apenas quando realmente precisamos delas para lhe fornecer um serviço. Fazemo-lo por meios justos e legais, com o seu conhecimento e consentimento. Também informamos por que estamos coletando e como será usado.</p>
+   <p>Apenas retemos as informações coletadas pelo tempo necessário para fornecer o serviço solicitado. Quando armazenamos dados, protegemos dentro de meios comercialmente aceitáveis ​​para evitar perdas e roubos, bem como acesso, divulgação, cópia, uso ou modificação não autorizados.</p>
+<p>Não compartilhamos informações de identificação pessoal publicamente ou com terceiros, exceto quando exigido por lei.</p>
+<p>O nosso site pode ter links para sites externos que não são operados por nós. Esteja ciente de que não temos controle sobre o conteúdo e práticas desses sites e não podemos aceitar responsabilidade por suas respectivas políticas de privacidade.</p>
+<p>Você é livre para recusar a nossa solicitação de informações pessoais, entendendo que talvez não possamos fornecer alguns dos serviços desejados.</p>
+<p>O uso continuado de nosso site será considerado como aceitação de nossas práticas em torno de privacidade e informações pessoais. Se você tiver alguma dúvida sobre como lidamos com dados do usuário e informações pessoais, entre em contacto connosco.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 </article>
 

@@ -129,8 +129,9 @@ require('./_header.php');
    
 
     <h3>Notícias Atualizadas</h3>
-    <p>Últimas notícias do Brasil e do mundo no Google News sobre '<span id="keyword"></span>'.</p>
+    <p>Últimas notícias do Brasil e do mundo no Google News sobre <span id="keyword"></span>.</p>
     <div id="side"></div>
+    <a href="noticias.php" class="center">Ver mais ...</a>
 
 
 </aside>
